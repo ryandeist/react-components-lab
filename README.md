@@ -3,6 +3,8 @@
 ## Overview
 In this lab, you’ll build a weather forecast page that **re-uses a single component** to display multiple days’ worth of weather forecasts. You will only need to work with two components to complete this exercise, `src/App.jsx` and `src/WeatherForecast.jsx`. The `<App/>` component will act as our root, while the `<WeatherForecast />` component will be used within `src/App.jsx` to dynamically generate a list of forecasts.
 
+![](src/assets/image.png)
+
 Your app should adhere to the following component hierarchy diagram:
 
 ![](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-components-lab/exercise/assets/chd-core.png)
