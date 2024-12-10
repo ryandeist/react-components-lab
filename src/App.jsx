@@ -1,3 +1,6 @@
+import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
+import './App.css';
+
 const weatherForecasts = [
   {
     day: 'Mon',
@@ -42,10 +45,15 @@ const App = () => {
     <>
     <h1>Local Weather</h1>
     <section>
-      
+      {weatherForecasts.map((forcast, index) => (
+        <WeatherForecast
+        key={ index }
+        { ...forcast }
+        />
+      ))}
     </section>
     </>
   );
-}
+};
 
 export default App
